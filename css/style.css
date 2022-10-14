@@ -1,0 +1,67 @@
+/* position properti */
+.box{
+    height: 650px;
+    width: 100%;
+    position: relative;
+}
+button{
+    background-color: aquamarine;
+    border-radius: 15px;
+    width: 250px;
+    padding: 10px;
+}
+.cover{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.image-box{
+    height: 100%;
+    width: 100%;
+}
+/* .bg-wraper{
+    position: absolute;
+    top:100px;
+    left:1050px;
+} */
+/* position properti */
+.bg-image{
+    background-image: url(../img/image2.jpg);
+    width: 100%;
+    height: 600px;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-wraper{
+    padding-top: 50px;
+    padding-left: 50px;
+    color:white;
+}
+.title-h5{
+    font-size:40px;
+    /* transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: linear; */
+    transition: all 0.5s linear 0.5s ;
+}
+.title-h5:hover{
+    color:brown;
+    background:pink;
+}
+.animation-block{
+     width: 100px;
+     height: 100px;
+     background-color: green;
+     position:absolute;
+     animation-name:cube;
+}
+
+@keyframes cube{
+    from{top:0;}
+    to{top:200px;}
+}
